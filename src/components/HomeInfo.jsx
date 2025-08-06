@@ -29,8 +29,8 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 3) {
     return (
       <div className='info-box'>
-        <p className='font-medium text-center sm:text-2xl w-30'>
-          <span className="mx-40">Projects <br />  </span>
+        <p className='font-medium sm:text-xl text-center w-30'>
+          <span className="mx-20">Projects <br />  </span>
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
